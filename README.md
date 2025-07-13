@@ -21,30 +21,6 @@ The goal of this project is to validate key API endpoints by sending HTTP reques
 - **HTTP Client**: Requests
 - **Version Control**: Git & GitHub
 
-## 📁 Project Structure
-
-api_automation_test/
-├── config/                 # Base URLs, credentials, headers
-│   └── config.py
-│
-├── tests/                  # Organized test cases
-│   ├── test_login.py       # Auth/login endpoint tests
-│   └── test_products.py    # Product listing or search endpoint tests
-│
-├── utils/                  # Reusable helper functions
-│   └── api_helpers.py      # Centralized request logic
-│
-├── data/                   # Sample request/response payloads (optional)
-│   └── login_payload.json
-│
-├── reports/                # Test results or logs
-│   └── pytest_report.html
-│
-├── requirements.txt        # Dependencies
-├── README.md               # Project overview and usage
-└── .gitignore              # Ignored files for version control
-
-
 
 ## 🧪 How to Run Tests
 
